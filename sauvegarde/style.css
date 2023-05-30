@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .plats-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plats-list, .plats-details {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plats-details {
+    text-align: center;
+  }
+  
+  .plats-details label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .plats-details input, .plats-details select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .plats-details button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .plats-details button:hover {
+    background-color: #45a049;
+  }
+  
